@@ -11,6 +11,7 @@
 		66093B08292BA86700D407E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66093B07292BA86700D407E2 /* ContentView.swift */; };
 		66093B0A292BA86900D407E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66093B09292BA86900D407E2 /* Assets.xcassets */; };
 		66093B0D292BA86900D407E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66093B0C292BA86900D407E2 /* Preview Assets.xcassets */; };
+		66093B17292BAABF00D407E2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66093B16292BAABF00D407E2 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		66093B09292BA86900D407E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66093B0C292BA86900D407E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66093B0E292BA86900D407E2 /* New_Wave_Store.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = New_Wave_Store.entitlements; sourceTree = "<group>"; };
+		66093B16292BAABF00D407E2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		66093B04292BA86700D407E2 /* New Wave Store */ = {
 			isa = PBXGroup;
 			children = (
+				66093B19292BAC9100D407E2 /* Views */,
+				66093B18292BAC8100D407E2 /* Model */,
 				66093B05292BA86700D407E2 /* New_Wave_StoreApp.swift */,
-				66093B07292BA86700D407E2 /* ContentView.swift */,
 				66093B09292BA86900D407E2 /* Assets.xcassets */,
 				66093B0E292BA86900D407E2 /* New_Wave_Store.entitlements */,
 				66093B0B292BA86900D407E2 /* Preview Content */,
@@ -67,6 +70,22 @@
 				66093B0C292BA86900D407E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66093B18292BAC8100D407E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66093B16292BAABF00D407E2 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66093B19292BAC9100D407E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66093B07292BA86700D407E2 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 			files = (
 				66093B08292BA86700D407E2 /* ContentView.swift in Sources */,
 				66093B06292BA86700D407E2 /* New_Wave_StoreApp.swift in Sources */,
+				66093B17292BAABF00D407E2 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
