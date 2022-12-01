@@ -13,6 +13,11 @@
 		66093B0D292BA86900D407E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66093B0C292BA86900D407E2 /* Preview Assets.xcassets */; };
 		66093B17292BAABF00D407E2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66093B16292BAABF00D407E2 /* Product.swift */; };
 		66093B1B292BB27300D407E2 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66093B1A292BB27300D407E2 /* ProductList.swift */; };
+		664FBEE129390139001EC31F /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664FBEE029390139001EC31F /* Cart.swift */; };
+		6668465A292E5D8B00CC4CD3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66684659292E5D8B00CC4CD3 /* Constants.swift */; };
+		6668465C292E5EE400CC4CD3 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668465B292E5EE400CC4CD3 /* ProductView.swift */; };
+		6689FF7A29363C9800E06FFF /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6689FF7929363C9800E06FFF /* ProductDetailView.swift */; };
+		66FD948D292E639800BB36B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD948C292E639800BB36B3 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		66093B0E292BA86900D407E2 /* New_Wave_Store.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = New_Wave_Store.entitlements; sourceTree = "<group>"; };
 		66093B16292BAABF00D407E2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		66093B1A292BB27300D407E2 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		664FBEE029390139001EC31F /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		66684659292E5D8B00CC4CD3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6668465B292E5EE400CC4CD3 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		6689FF7929363C9800E06FFF /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		66FD948C292E639800BB36B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,8 @@
 			children = (
 				66093B16292BAABF00D407E2 /* Product.swift */,
 				66093B1A292BB27300D407E2 /* ProductList.swift */,
+				66684659292E5D8B00CC4CD3 /* Constants.swift */,
+				664FBEE029390139001EC31F /* Cart.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				66093B07292BA86700D407E2 /* ContentView.swift */,
+				6668465B292E5EE400CC4CD3 /* ProductView.swift */,
+				66FD948C292E639800BB36B3 /* HomeView.swift */,
+				6689FF7929363C9800E06FFF /* ProductDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,9 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6668465A292E5D8B00CC4CD3 /* Constants.swift in Sources */,
+				664FBEE129390139001EC31F /* Cart.swift in Sources */,
+				6689FF7A29363C9800E06FFF /* ProductDetailView.swift in Sources */,
+				66FD948D292E639800BB36B3 /* HomeView.swift in Sources */,
 				66093B08292BA86700D407E2 /* ContentView.swift in Sources */,
 				66093B1B292BB27300D407E2 /* ProductList.swift in Sources */,
 				66093B06292BA86700D407E2 /* New_Wave_StoreApp.swift in Sources */,
+				6668465C292E5EE400CC4CD3 /* ProductView.swift in Sources */,
 				66093B17292BAABF00D407E2 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +245,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -278,7 +298,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
